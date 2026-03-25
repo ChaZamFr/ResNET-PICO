@@ -308,6 +308,7 @@ def main():
     3. Rebuild:
          cmake --build build
     4. Flash resnet_pico.uf2 to your Pico.
+    
     """))
 
 

@@ -1,5 +1,7 @@
 # ResNET on pico in C
 
+Architecture : (https://chazamfr.github.io/resnet-pico-web/)
+
 ```bash
 git clone https://github.com/ChaZamFr/ResNET-PICO.git
 cd ResNET-PICO
@@ -30,4 +32,6 @@ ls /dev/ttyACM*
 screen /dev/ttyACM*
 ```
 Check the ttyACM* number then enter the number with screen command
+
+
 

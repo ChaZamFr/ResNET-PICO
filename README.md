@@ -1,6 +1,6 @@
 # ResNET on pico in C
 
-Architecture : (https://chazamfr.github.io/resnet-pico-web/)
+Architecture : https://chazamfr.github.io/resnet-pico-web/
 
 ```bash
 git clone https://github.com/ChaZamFr/ResNET-PICO.git

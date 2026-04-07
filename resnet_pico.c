@@ -1,5 +1,5 @@
 /*
- * resnet_pico_commented.c
+ * resnet_pico.c
  * =======================
  * Minimal ResNet-8 inference engine for the Raspberry Pi Pico (RP2040).
  *

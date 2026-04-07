@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.13)
 
 # Pull in Pico SDK (must be set before project())
-set(PICO_SDK_PATH ~/pico-c/pico-sdk)
-include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+
+set(PICO_SDK_PATH ~/ResNET-PICO/pico-sdk)
+include(~/ResNET-PICO/pico-sdk/external/pico_sdk_import.cmake)
 
 project(resnet_pico C CXX ASM)
 set(CMAKE_C_STANDARD 11)
@@ -20,6 +21,7 @@ target_compile_options(resnet_pico PRIVATE -O3 -ffast-math)
 
 target_link_libraries(resnet_pico
     pico_stdlib
+    hardware_watchdog
 )
 
 # Enable USB serial output (printf)

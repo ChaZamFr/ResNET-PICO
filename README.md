@@ -31,7 +31,7 @@ To check if the model is running or not :
 ls /dev/ttyACM*
 screen /dev/ttyACM*
 ```
-Check the ttyACM* number then enter the number with screen command
+Check the ttyACM* number then enter the number with screen command then type "start" after the console opens then we can run the model
 
 
 

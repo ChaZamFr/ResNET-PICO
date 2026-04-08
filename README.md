@@ -31,7 +31,16 @@ To check if the model is running or not :
 ls /dev/ttyACM*
 screen /dev/ttyACM*
 ```
-Check the ttyACM* number then enter the number with screen command then type "start" after the console opens then we can run the model
+Check the ttyACM* number then enter the number with screen command then type "start" after the console opens then we can run the model in Linux. In windows, to view the console, you can use PuTTY for serial monitor.
+
+```bash
+Commands for the console
+
+start   — run inference on the built-in test image
+info    — show network architecture summary
+help    — show this message
+reboot  — reset the Pico
+```
 
 
 
